@@ -260,4 +260,6 @@ body{
 @keyframes cloud {
     100%{
         transform: translateX(calc(-100vw - 130px));
-    
+    }
+
+}
