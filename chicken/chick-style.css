@@ -200,11 +200,11 @@ body{
     width: 120px;
     border-radius: 120px;
     position: absolute;
-    /* z-index: -3; */
-    right: -130px;
+    z-index: -3;
+    right: -130px; 
 }
 
-/* .cloud:before {
+.cloud:before {
     position: absolute;
     content: "";
     background-color: #ffffff;
@@ -212,8 +212,8 @@ body{
     width: 65px;
     border-radius: 50%;
     left: 15px;
-}
-
+    bottom: 10px;
+} 
 .cloud:after{
     position: absolute;
     content: "";
@@ -227,24 +227,25 @@ body{
 
 .cloud1 {
     top: 240px;
-    animation: cloud 10s infinite linear;
+    animation: cloud 5s 18px infinite linear;
 
 }
 .cloud2 {
     top: 160px;
-    animation: cloud 10s 18px infinite linear;
+    /* right: 200px; */
+    animation: cloud 8s infinite linear;
 }
 .cloud3 {
     top: 60px;
-    animation: cloud 10s 5s infinite linear;
+    animation: cloud 8s 5s infinite linear;
 }
 .cloud4 {
     top: 300px;
-    animation: cloud 10s 12s infinite linear;
-} */
+    animation: cloud 8s 12s infinite linear;
+} 
 
 @keyframes cloud {
     100%{
-        tramsform: transitionX(calc(-100vw - 130px))
+        transform: translateX(calc(-100vw - 130px));
     }
 }
