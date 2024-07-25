@@ -61,7 +61,7 @@ body{
 .wing{
     height: 37px;
     width: 74px;
-    background-color: #e7c712;
+    background-color: #f7892f;
     position: absolute;
     top: 55px;
     left: -48px;
@@ -76,7 +76,7 @@ body{
 }
 .beak{
     position: absolute;
-    background-color: #f17c00;
+    background-color: #f00f07;
     height: 40px;
     width: 40px;
     border-radius: 5px;
@@ -106,7 +106,7 @@ body{
 }
 
 .blush{
-    background-color: pink;
+    background-color: rgb(245, 129, 75);
     position: absolute;
     height: 15px;
     width: 15px;
@@ -118,7 +118,7 @@ body{
 .left-leg, .right-leg {
     height: 50px;
     width: 13px;
-    background-color: #f17c00;
+    background-color: #eb2005;
     position: absolute;
     top: 100px;
     left: 35px;
@@ -132,7 +132,7 @@ body{
     position: absolute;
     height: 13px;
     width: 40px;
-    background-color: #f17c00;
+    background-color: #f11607;
     right: -20px;
     top: 50px;
     border-radius: 40px;
@@ -155,7 +155,7 @@ body{
     height: 35px;
     width: 12px;
     border-radius: 35px;
-    background-color: #ffec02;
+    background-color: #f50f08;
     position: absolute;
     left: 30px;
     top: -20px;
@@ -167,7 +167,7 @@ body{
     position: absolute;
     height: 25px;
     width: 12px;
-    background-color: #ffec02;
+    background-color: #f11405;
     top: 5px;
     left: 10px;
     border-radius: 25px;
@@ -175,7 +175,7 @@ body{
 }
 
 .shadow {
-    background-color: #084a79;
+    background-color: #011320;
     height: 18px;
     width: 110px;
     position: absolute;
