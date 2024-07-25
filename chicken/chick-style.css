@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #4ddcf5;
-}
-
 
 .container{
     height: 550px;
@@ -22,17 +18,6 @@ body{
     bottom: 0;
 }
 
-.sun{
-    background-color:#f0ec0d;
-    height: 80px;
-    width: 80px;
-    border-radius: 120px;
-    position: absolute;
-    z-index: -3;
-    margin: auto;
-    right: 250px;
-    bottom: 400px;
-}
 
 .chick{
     position: absolute;
@@ -214,7 +199,8 @@ body{
     border-radius: 120px;
     position: absolute;
     z-index: -3;
-    right: -130px; 
+    right: -130px;
+    box-shadow: 5px 6px 10px #f1e55a;
 }
 
 .cloud:before {
@@ -236,8 +222,13 @@ body{
     border-radius: 50%;
     bottom: 10px;
     right: 10px;
+    /* animation: cloudy 5s; */
 }
-
+/* @keyframes cloudy {
+    80%{
+        background-color: black;
+    }
+} */
 .cloud1 {
     top: 240px;
     animation: cloud 5s 18px infinite linear;
@@ -258,8 +249,10 @@ body{
 } 
 
 @keyframes cloud {
+
     100%{
         transform: translateX(calc(-100vw - 130px));
+
     }
 
 }
