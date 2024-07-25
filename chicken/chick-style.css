@@ -53,7 +53,7 @@
     background-color: #ffec02;
     top: 65px;
     right: 0;
-    border-radius: 15px 0 150px 150px;
+    border-radius: 0px 0 140px 150px;
 }
 
 .wing{
@@ -63,7 +63,8 @@
     position: absolute;
     top: 55px;
     left: -48px;
-    border-radius: 10px 10px 74px 74px;
+    /* border-radius: 10px 10px 74px 74px; */
+    border-radius: 1% 94% 46% 100% / 2% 59% 63% 100% ;
     transform-origin: right;
     animation: wing 1s infinite;
 }
