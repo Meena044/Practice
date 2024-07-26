@@ -64,7 +64,7 @@
     top: 55px;
     left: -48px;
     /* border-radius: 10px 10px 74px 74px; */
-    border-radius: 1% 94% 46% 100% / 2% 59% 63% 100% ;
+    border-radius: 1% 94% 6% 100% / 2% 59% 63% 100% ;
     transform-origin: right;
     animation: wing 1s infinite;
 }
