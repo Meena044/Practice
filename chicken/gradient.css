@@ -33,20 +33,20 @@
     animation: night 12s linear infinite forwards;
     box-shadow: 16px 15px 50px #f5e506, -10px -15px 50px #dfee07;
 }
-
-/* @keyframes night{
+/* 
+@keyframes night{
     25%{
         background: radial-gradient( rgb(246, 248, 122), rgb(247, 247, 89), rgb(241, 134, 34));
         height: 80px;
         width: 80px;
         border-radius: 50%;
-        position: absolute;
+        position: absolute; */
         /* top: 20%;
         right: 600px; */
-        z-index: -3;
+        /* z-index: -3; */
         /* transform: translate(-50%, -50%); */
         /* box-shadow: -15px 15px 0 5px white; */
-    }
+    /* }
     60%{
         background: radial-gradient( rgb(250, 252, 147), rgb(252, 252, 115), rgba(248, 152, 63,0.4));
         height: 80px;
@@ -64,9 +64,9 @@
         position: absolute;
         /* top: 10%;
         left: 50%; */
-        z-index: -3;
+        /* z-index: -3; */
         /* transform: translate(-50%, -50%); */
         /* box-shadow: -15px 15px 020px 5px rgb(235, 236, 174); */
         /* opacity:0; */
-    }
-} */
+    /* }
+} */ 
