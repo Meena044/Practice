@@ -1,0 +1,72 @@
+.grad{
+     /* height: 100vh;
+    width: 100vw; */
+    /*background: linear-gradient(90deg, rgb(226, 138, 7), #a3e40d, #3ff0c6, #7462ff,darkblue,rgb(1, 1, 75));
+    background-size: 250%;
+    animation: color 12s infinite ease-in-out; */
+    background: linear-gradient(180deg, rgb(226, 138, 7), #a3e40d, #3ff0c6, #7462ff,darkblue,rgb(1, 1, 75));
+}
+
+/* @keyframes color{
+    0%{
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+} */
+
+.sun{
+    background: radial-gradient( rgb(235, 238, 87), yellow, rgb(238, 122, 13));
+    height: 80px;
+    width: 80px;
+    border-radius: 120px;
+    position: absolute;
+    z-index: -3;
+    margin: auto;
+    right: 500px;
+    bottom: 400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+    animation: night 12s linear infinite forwards;
+    box-shadow: 16px 15px 50px #f5e506, -10px -15px 50px #dfee07;
+}
+/* 
+@keyframes night{
+    25%{
+        background: radial-gradient( rgb(246, 248, 122), rgb(247, 247, 89), rgb(241, 134, 34));
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        position: absolute; */
+        /* top: 20%;
+        right: 600px; */
+        /* z-index: -3; */
+        /* transform: translate(-50%, -50%); */
+        /* box-shadow: -15px 15px 0 5px white; */
+    /* }
+    60%{
+        background: radial-gradient( rgb(250, 252, 147), rgb(252, 252, 115), rgba(248, 152, 63,0.4));
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -3;
+    }
+
+    100%{
+        background: radial-gradient( rgb(247, 247, 175), rgb(250, 250, 160), rgb(240, 243, 92));
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        position: absolute;
+        /* top: 10%;
+        left: 50%; */
+        /* z-index: -3; */
+        /* transform: translate(-50%, -50%); */
+        /* box-shadow: -15px 15px 020px 5px rgb(235, 236, 174); */
+        /* opacity:0; */
+    /* }
+} */ 
