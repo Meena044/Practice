@@ -1,2 +1,1 @@
-this folder contains all the CSS art i have worked on such as:
-1. moving chicken and moving background clouds(sub-folder name: chicken)
+this folder contains all the html,CSS practice code and topics i covered while learning :
